@@ -1,0 +1,30 @@
+@media (max-width: 1100px) {
+
+    #presentation-item{
+        grid-column: 1/6 ;
+    grid-row: 1/2;
+    font-size: 1.3rem;
+    }
+
+    #bottom-line{
+        position: absolute;
+        left : 5%;
+        width: 70%;}
+
+    #activities-grid{
+        gap: 5px;
+    }
+
+    #contact-item{
+        grid-column: 1/6;
+        grid-row: 4/6;
+        margin: 20px;
+        font-size: 0.6em;
+}
+
+    #media-container{
+        grid-row:  7/8;
+        font-size: 0.6em;
+    }
+
+}
