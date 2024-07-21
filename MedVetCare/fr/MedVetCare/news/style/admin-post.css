@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../../src/futura/futura\ light\ bt.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Futura-bold';
+    src: url('../../src/futura/Futura\ Heavy\ font.ttf') format('truetype');
+  }
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: Futura, Arial, sans-serif;
+    
+    line-height: 1.556;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color : rgb(31 86 115)
+}
+
+input{
+    all: unset;
+}
+a{
+    all:unset;}
+#news-item{
+    width: 100%;
+    height: auto;
+    margin-top: 12%;
+    text-align: center;
+    align-items: center;
+   
+}
+#news-global-text{
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    color: rgb(31 86 115);
+    font-size: 0.8em;
+    width: 80%;
+    
+    margin: auto; 
+    text-align: center; 
+    
+
+}
+#news-grid{
+    
+    height: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 0.5fr  0.5fr 0.5fr ;
+    margin: 10%;
+    margin-top: 5px;
+    font-size: 0.8em;
+    border: 3px solid rgb(31 86 115);
+    border-radius: 10px;
+    box-shadow: 20px 20px 4px #b3b39b;
+    background-color: rgb(247 234 208);
+    text-align: start;
+    align-items: start;
+    
+}
+
+
+#object-input{
+    margin-top: 1%;
+    
+}
+
+.news-input{
+    background-color:rgb(247 234 208);
+    border: 0px;
+    border-bottom: 2px solid rgb(31 86 115);
+}
+#button-container{
+    align-items: center;
+    text-align: center;
+}
+
+#submit-button{
+    width :30%;
+    margin: 2%;
+    border-radius: 7px;
+    background-color: rgb(31 86 115);
+    color: white;
+    border: 0px;
+    padding: 1%;
+    font-size: 1em;
+}
+#submit-button:hover{
+    background-color: rgb(39, 116, 157);
+}
+
+#news-container{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    margin-top: 2%;
+    
+}
+.news-box{
+    display: flexbox;
+    width: fit-content;
+    min-width: 50%;
+    border-radius: 10px;
+    border: 2px solid rgb(39, 116, 157);;
+    margin: 2% auto;
+   
+
+}
+
+.delete-button{
+    border-radius: 7px;
+    background-color: rgb(31 86 115);
+    color: white;
+    border: 0px;
+    font-size: 0.8em;
+    padding: 1%;
+}
+
+.bottom-line{
+    left : 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(31 86 115);
+    margin-bottom: 4%;}
+
+.object {
+    
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+.writer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+}

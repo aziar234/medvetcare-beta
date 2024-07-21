@@ -1,0 +1,9 @@
+@media (max-width: 1100px) {
+    .grid-item{
+        margin-left: 4%;
+    }
+    .content-list{
+        text-align: start;
+
+    }
+}
