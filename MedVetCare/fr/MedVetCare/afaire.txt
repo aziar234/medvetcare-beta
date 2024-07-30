@@ -1,2 +1,0 @@
-*rajouter la date dans les arcticles 
-*rajouter la fonctionalité mettre des images dans les articles
