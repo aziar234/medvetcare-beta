@@ -1,0 +1,24 @@
+<!-- index.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/admin-post.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="recruitments-item"> 
+        <H3 id="recruitments-global-text">Pour publier un article sur la page recruitments</H3>
+        <div id="recruitments-grid">
+        <input placeholder="  Titre" id="object-input" class="recruitments-input"/>
+        <input placeholder="  content" id="content-input" class="recruitments-input"/>
+        <input placeholder="  auteur" id="mail-input" class="recruitments-input"/>
+        <div id="button-container"><button id="submit-button">Envoyer</button></div></div>
+    </div>
+    <div id="recruitments-container"></div>
+    <script src="upload.js"></script>
+    <script src="admin-show.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../../src/futura/futura\ light\ bt.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Futura-bold';
+    src: url('../../src/futura/Futura\ Heavy\ font.ttf') format('truetype');
+  }
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: Futura, Arial, sans-serif;
+    
+    line-height: 1.556;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color : rgb(31 86 115);
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+input{
+    all: unset;
+}
+a{
+    all:unset;}
+
+    
+#news-container{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 95%;
+    margin-top: 2%;
+    margin: 2% auto;
+    
+}
+.news-box{
+    display: flexbox;
+    width: fit-content;
+    min-width: 50%;
+    border-radius: 10px;
+    border: 2px solid rgb(39, 116, 157);;
+    margin: 2% auto;
+    padding: 1%;
+}
+
+.delete-button{
+    border-radius: 7px;
+    background-color: rgb(31 86 115);
+    color: white;
+    border: 0px;
+    font-size: 0.8em;
+    padding: 1%;
+}
+
+.bottom-line{
+    left : 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(31 86 115);
+    margin-bottom: 4%;}
+
+.object {
+    all: unset;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+    font-size: 1em;
+    margin-bottom: 2%;
+}
+
+.content{
+    all: unset;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.writer{
+
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+    font-size: 0.8em;
+    
+}
+
+#media-container {
+    margin-top: 2%;
+    width: 100%;
+    background-color: rgb(31 86 115);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  #media-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: auto;
+  }
+#media-item{
+    
+    grid-column: 2/3;
+    width: 95%;
+    margin-left: 5%;
+    height: 100%;
+    color : white;
+    font-size: 0.8em;
+}
+
+#media-list{
+    all: unset;
+}
+#media-list-item{
+    all: unset;
+}
+
