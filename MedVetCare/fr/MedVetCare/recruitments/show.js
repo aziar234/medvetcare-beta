@@ -18,7 +18,7 @@ const firebaseConfig = {
     const recruitmentsContainer = document.getElementById('recruitments-container');
     if (recruitmentsContainer) {
       if (snapshot.exists()) {
-        recruitmentsContainer.innerHTML = `<div class="sub-title">Nos offres d'emploie : </div>`; // clear the container before rendering new recruitments items
+        recruitmentsContainer.innerHTML = `<div class="sub-title">Nos offres d'emploi : </div>`; // clear the container before rendering new recruitments items
         snapshot.forEach((childSnapshot) => {
           const recruitmentsData = childSnapshot.val();
           const recruitmentsHTML = `
